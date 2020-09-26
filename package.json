@@ -1,0 +1,17 @@
+{
+  "name": "bash-js-script",
+  "version": "1.0.0",
+  "description": "running bash with js",
+  "main": "index.js",
+  "author": "Nick Anderson",
+  "license": "MIT",
+  "scripts": {
+    "start": "chmod u+x index.js && ./index.js",
+    "password": "chmod u+x password.js && ./password.js",
+    "prompt": "chmod u+x prompt.js && ./prompt.js",
+    "validNumber": "chmod u+x validNumber.js && ./validNumber.js"
+  },
+  "dependencies": {
+    "prompt": "^1.0.0"
+  }
+}
